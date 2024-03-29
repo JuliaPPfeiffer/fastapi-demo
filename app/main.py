@@ -101,9 +101,9 @@ class Item(BaseModel):
 def add_item(item_id: int, item: Item):
     return {"item_id": item_id, "item_name": item.name}
 
-@app.delete("/items/{item_id}")
-def delete_item(item_id: int, item: Item):
-    return {"action": "deleted", "item_id": item_id}
+# @app.delete("/items/{item_id}")
+# def delete_item(item_id: int, item: Item):
+#     return {"action": "deleted", "item_id": item_id}
 
 @app.patch("/items/{item_id}")
 def patch_item(item_id: int, item: Item):

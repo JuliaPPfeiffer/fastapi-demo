@@ -2,13 +2,17 @@
 
 ## Getting Started
 
+<<<<<<< HEAD
 ### Gitpod - is the way i'll edit my project
+=======
+### Gitpod zzz
+>>>>>>> f2feecc2fb9fa042f7155668e3bf14f7a4f7ee10
 
 The easiest way to start working is to append `https://gitpod.io/#` before the URL of your GitHub repository. This should look something like (but use the URL of your fork):
 
 > [**https://gitpod.io/#https://github.com/nmagee/fastapi-demo**](https://gitpod.io/#https://github.com/nmagee/fastapi-demo)
 
-From within Gitpod, you have a full IDE to work with the code. You can run commands in the terminal, preview the application, and git add/commit/push.
+From within Gitpod, you have a full IDE to work with the code. You can run commands in the terminal, preview the application by running the `./preview.sh` script, and normal `git` add/commit/push commands.
 
 ### Local
 

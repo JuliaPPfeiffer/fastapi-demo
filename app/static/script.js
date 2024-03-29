@@ -42,3 +42,7 @@ async function renderData() {
 
 // Call the renderData function to display data
 renderData();
+<<<<<<< HEAD
+=======
+
+>>>>>>> f2feecc2fb9fa042f7155668e3bf14f7a4f7ee10
